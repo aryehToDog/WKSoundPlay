@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIu-1J-20H">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="Vur-5C-YNr"/>
+                                    <constraint firstAttribute="height" constant="30" id="oAp-VY-Asx"/>
+                                </constraints>
+                                <state key="normal" title="播放音乐及录音"/>
+                                <connections>
+                                    <action selector="startSound" destination="BYZ-38-t0r" eventType="touchUpInside" id="miA-Pb-T3e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuX-nZ-iNg">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="KBI-xh-URr"/>
+                                    <constraint firstAttribute="height" constant="30" id="auP-Xb-Db5"/>
+                                </constraints>
+                                <state key="normal" title="暂停"/>
+                                <connections>
+                                    <action selector="stopSound" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vcf-HK-dsh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w5-Fs-Wyw">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SyX-x4-eIF"/>
+                                    <constraint firstAttribute="width" constant="108" id="ahd-wS-GJB"/>
+                                </constraints>
+                                <state key="normal" title="播放音频及录音"/>
+                                <connections>
+                                    <action selector="playVoice" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Lw-eY-z4A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HuX-nZ-iNg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FAW-x7-BCg"/>
+                            <constraint firstItem="hIu-1J-20H" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="97" id="HMu-an-50I"/>
+                            <constraint firstItem="5w5-Fs-Wyw" firstAttribute="top" secondItem="HuX-nZ-iNg" secondAttribute="bottom" constant="38" id="XfR-vF-sV4"/>
+                            <constraint firstItem="hIu-1J-20H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aIE-Zt-ZYa"/>
+                            <constraint firstItem="HuX-nZ-iNg" firstAttribute="top" secondItem="hIu-1J-20H" secondAttribute="bottom" constant="40" id="hoN-cp-tC8"/>
+                            <constraint firstItem="5w5-Fs-Wyw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vTU-AV-q3w"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

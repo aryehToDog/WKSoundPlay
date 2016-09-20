@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25C669651D915A1F00DBE861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C669641D915A1F00DBE861 /* main.m */; };
+		25C669681D915A1F00DBE861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C669671D915A1F00DBE861 /* AppDelegate.m */; };
+		25C6696B1D915A1F00DBE861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C6696A1D915A1F00DBE861 /* ViewController.m */; };
+		25C6696E1D915A1F00DBE861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C6696C1D915A1F00DBE861 /* Main.storyboard */; };
+		25C669701D915A2000DBE861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C6696F1D915A2000DBE861 /* Assets.xcassets */; };
+		25C669731D915A2000DBE861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C669711D915A2000DBE861 /* LaunchScreen.storyboard */; };
+		25C6697E1D915A2000DBE861 /* WKSoundPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C6697D1D915A2000DBE861 /* WKSoundPlayTests.m */; };
+		25C669891D915A2000DBE861 /* WKSoundPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C669881D915A2000DBE861 /* WKSoundPlayUITests.m */; };
+		25C669981D915B6000DBE861 /* WKAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C669971D915B6000DBE861 /* WKAudioTool.m */; };
+		25C6699A1D915BE200DBE861 /* 1201111234.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25C669991D915BE200DBE861 /* 1201111234.mp3 */; };
+		25C6699D1D91628100DBE861 /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25C6699C1D91628100DBE861 /* buyao.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25C6697A1D915A2000DBE861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25C669581D915A1F00DBE861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25C6695F1D915A1F00DBE861;
+			remoteInfo = WKSoundPlay;
+		};
+		25C669851D915A2000DBE861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25C669581D915A1F00DBE861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25C6695F1D915A1F00DBE861;
+			remoteInfo = WKSoundPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25C669601D915A1F00DBE861 /* WKSoundPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKSoundPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C669641D915A1F00DBE861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25C669661D915A1F00DBE861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25C669671D915A1F00DBE861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25C669691D915A1F00DBE861 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25C6696A1D915A1F00DBE861 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25C6696D1D915A1F00DBE861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25C6696F1D915A2000DBE861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25C669721D915A2000DBE861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25C669741D915A2000DBE861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C669791D915A2000DBE861 /* WKSoundPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKSoundPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C6697D1D915A2000DBE861 /* WKSoundPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKSoundPlayTests.m; sourceTree = "<group>"; };
+		25C6697F1D915A2000DBE861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C669841D915A2000DBE861 /* WKSoundPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKSoundPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C669881D915A2000DBE861 /* WKSoundPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKSoundPlayUITests.m; sourceTree = "<group>"; };
+		25C6698A1D915A2000DBE861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C669961D915B6000DBE861 /* WKAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAudioTool.h; sourceTree = "<group>"; };
+		25C669971D915B6000DBE861 /* WKAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKAudioTool.m; sourceTree = "<group>"; };
+		25C669991D915BE200DBE861 /* 1201111234.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1201111234.mp3; sourceTree = "<group>"; };
+		25C6699B1D915FB400DBE861 /* normal.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = normal.aac; sourceTree = "<group>"; };
+		25C6699C1D91628100DBE861 /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C6695D1D915A1F00DBE861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C669761D915A2000DBE861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C669811D915A2000DBE861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C669571D915A1F00DBE861 = {
+			isa = PBXGroup;
+			children = (
+				25C669621D915A1F00DBE861 /* WKSoundPlay */,
+				25C6697C1D915A2000DBE861 /* WKSoundPlayTests */,
+				25C669871D915A2000DBE861 /* WKSoundPlayUITests */,
+				25C669611D915A1F00DBE861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25C669611D915A1F00DBE861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C669601D915A1F00DBE861 /* WKSoundPlay.app */,
+				25C669791D915A2000DBE861 /* WKSoundPlayTests.xctest */,
+				25C669841D915A2000DBE861 /* WKSoundPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C669621D915A1F00DBE861 /* WKSoundPlay */ = {
+			isa = PBXGroup;
+			children = (
+				25C669961D915B6000DBE861 /* WKAudioTool.h */,
+				25C669971D915B6000DBE861 /* WKAudioTool.m */,
+				25C669661D915A1F00DBE861 /* AppDelegate.h */,
+				25C669671D915A1F00DBE861 /* AppDelegate.m */,
+				25C669691D915A1F00DBE861 /* ViewController.h */,
+				25C6696A1D915A1F00DBE861 /* ViewController.m */,
+				25C6696C1D915A1F00DBE861 /* Main.storyboard */,
+				25C6696F1D915A2000DBE861 /* Assets.xcassets */,
+				25C669711D915A2000DBE861 /* LaunchScreen.storyboard */,
+				25C669741D915A2000DBE861 /* Info.plist */,
+				25C669631D915A1F00DBE861 /* Supporting Files */,
+			);
+			path = WKSoundPlay;
+			sourceTree = "<group>";
+		};
+		25C669631D915A1F00DBE861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C6699B1D915FB400DBE861 /* normal.aac */,
+				25C6699C1D91628100DBE861 /* buyao.wav */,
+				25C669991D915BE200DBE861 /* 1201111234.mp3 */,
+				25C669641D915A1F00DBE861 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C6697C1D915A2000DBE861 /* WKSoundPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				25C6697D1D915A2000DBE861 /* WKSoundPlayTests.m */,
+				25C6697F1D915A2000DBE861 /* Info.plist */,
+			);
+			path = WKSoundPlayTests;
+			sourceTree = "<group>";
+		};
+		25C669871D915A2000DBE861 /* WKSoundPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25C669881D915A2000DBE861 /* WKSoundPlayUITests.m */,
+				25C6698A1D915A2000DBE861 /* Info.plist */,
+			);
+			path = WKSoundPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25C6695F1D915A1F00DBE861 /* WKSoundPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C6698D1D915A2000DBE861 /* Build configuration list for PBXNativeTarget "WKSoundPlay" */;
+			buildPhases = (
+				25C6695C1D915A1F00DBE861 /* Sources */,
+				25C6695D1D915A1F00DBE861 /* Frameworks */,
+				25C6695E1D915A1F00DBE861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKSoundPlay;
+			productName = WKSoundPlay;
+			productReference = 25C669601D915A1F00DBE861 /* WKSoundPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25C669781D915A2000DBE861 /* WKSoundPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C669901D915A2000DBE861 /* Build configuration list for PBXNativeTarget "WKSoundPlayTests" */;
+			buildPhases = (
+				25C669751D915A2000DBE861 /* Sources */,
+				25C669761D915A2000DBE861 /* Frameworks */,
+				25C669771D915A2000DBE861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C6697B1D915A2000DBE861 /* PBXTargetDependency */,
+			);
+			name = WKSoundPlayTests;
+			productName = WKSoundPlayTests;
+			productReference = 25C669791D915A2000DBE861 /* WKSoundPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25C669831D915A2000DBE861 /* WKSoundPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C669931D915A2000DBE861 /* Build configuration list for PBXNativeTarget "WKSoundPlayUITests" */;
+			buildPhases = (
+				25C669801D915A2000DBE861 /* Sources */,
+				25C669811D915A2000DBE861 /* Frameworks */,
+				25C669821D915A2000DBE861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C669861D915A2000DBE861 /* PBXTargetDependency */,
+			);
+			name = WKSoundPlayUITests;
+			productName = WKSoundPlayUITests;
+			productReference = 25C669841D915A2000DBE861 /* WKSoundPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C669581D915A1F00DBE861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "阿拉斯加的🐶";
+				TargetAttributes = {
+					25C6695F1D915A1F00DBE861 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y2G5F25VK;
+						ProvisioningStyle = Automatic;
+					};
+					25C669781D915A2000DBE861 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y2G5F25VK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25C6695F1D915A1F00DBE861;
+					};
+					25C669831D915A2000DBE861 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8Y2G5F25VK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25C6695F1D915A1F00DBE861;
+					};
+				};
+			};
+			buildConfigurationList = 25C6695B1D915A1F00DBE861 /* Build configuration list for PBXProject "WKSoundPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25C669571D915A1F00DBE861;
+			productRefGroup = 25C669611D915A1F00DBE861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25C6695F1D915A1F00DBE861 /* WKSoundPlay */,
+				25C669781D915A2000DBE861 /* WKSoundPlayTests */,
+				25C669831D915A2000DBE861 /* WKSoundPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25C6695E1D915A1F00DBE861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C6699A1D915BE200DBE861 /* 1201111234.mp3 in Resources */,
+				25C669731D915A2000DBE861 /* LaunchScreen.storyboard in Resources */,
+				25C6699D1D91628100DBE861 /* buyao.wav in Resources */,
+				25C669701D915A2000DBE861 /* Assets.xcassets in Resources */,
+				25C6696E1D915A1F00DBE861 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C669771D915A2000DBE861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C669821D915A2000DBE861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C6695C1D915A1F00DBE861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C6696B1D915A1F00DBE861 /* ViewController.m in Sources */,
+				25C669681D915A1F00DBE861 /* AppDelegate.m in Sources */,
+				25C669981D915B6000DBE861 /* WKAudioTool.m in Sources */,
+				25C669651D915A1F00DBE861 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C669751D915A2000DBE861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C6697E1D915A2000DBE861 /* WKSoundPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C669801D915A2000DBE861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C669891D915A2000DBE861 /* WKSoundPlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25C6697B1D915A2000DBE861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25C6695F1D915A1F00DBE861 /* WKSoundPlay */;
+			targetProxy = 25C6697A1D915A2000DBE861 /* PBXContainerItemProxy */;
+		};
+		25C669861D915A2000DBE861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25C6695F1D915A1F00DBE861 /* WKSoundPlay */;
+			targetProxy = 25C669851D915A2000DBE861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25C6696C1D915A1F00DBE861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C6696D1D915A1F00DBE861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25C669711D915A2000DBE861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C669721D915A2000DBE861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25C6698B1D915A2000DBE861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25C6698C1D915A2000DBE861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C6698E1D915A2000DBE861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = WKSoundPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alasijiadegou.WKSoundPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25C6698F1D915A2000DBE861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = WKSoundPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alasijiadegou.WKSoundPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25C669911D915A2000DBE861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = WKSoundPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alasijiadegou.WKSoundPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKSoundPlay.app/WKSoundPlay";
+			};
+			name = Debug;
+		};
+		25C669921D915A2000DBE861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = WKSoundPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alasijiadegou.WKSoundPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKSoundPlay.app/WKSoundPlay";
+			};
+			name = Release;
+		};
+		25C669941D915A2000DBE861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = WKSoundPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alasijiadegou.WKSoundPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKSoundPlay;
+			};
+			name = Debug;
+		};
+		25C669951D915A2000DBE861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8Y2G5F25VK;
+				INFOPLIST_FILE = WKSoundPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alasijiadegou.WKSoundPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKSoundPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C6695B1D915A1F00DBE861 /* Build configuration list for PBXProject "WKSoundPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C6698B1D915A2000DBE861 /* Debug */,
+				25C6698C1D915A2000DBE861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C6698D1D915A2000DBE861 /* Build configuration list for PBXNativeTarget "WKSoundPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C6698E1D915A2000DBE861 /* Debug */,
+				25C6698F1D915A2000DBE861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C669901D915A2000DBE861 /* Build configuration list for PBXNativeTarget "WKSoundPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C669911D915A2000DBE861 /* Debug */,
+				25C669921D915A2000DBE861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C669931D915A2000DBE861 /* Build configuration list for PBXNativeTarget "WKSoundPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C669941D915A2000DBE861 /* Debug */,
+				25C669951D915A2000DBE861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25C669581D915A1F00DBE861 /* Project object */;
+}
